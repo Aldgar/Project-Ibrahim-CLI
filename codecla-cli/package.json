@@ -1,0 +1,39 @@
+{
+	"name": "codecla-cli",
+	"description": "boilrplate",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"type": "module",
+	"bin": {
+		"codecla-cli": "index.js"
+	},
+	"author": {
+		"name": "no name",
+		"email": "aldgar1988@gmail.com",
+		"url": "no url"
+	},
+	"keywords": [
+		"codecla-cli",
+		"no name"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^5.3.0",
+		"cli-alerts": "^2.0.0",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^4.0.0",
+		"cli-welcome": "^3.0.0",
+		"get-package-json-file": "^2.0.0",
+		"meow": "^13.2.0"
+	},
+	"devDependencies": {
+		"prettier": "^3.3.3"
+	}
+}
